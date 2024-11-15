@@ -31,7 +31,7 @@ body {
 #register h1 {
   font-size: 2rem;
   font-weight: bold;
-  color: #e63946;
+  color: #030202;
   margin-bottom: 0.5rem;
 }
 
@@ -74,7 +74,7 @@ form input.form-control:focus {
   border-color: #e63946;
   background-color: #ffffff;
   outline: none;
-  box-shadow: 0px 0px 5px rgba(230, 57, 70, 0.4);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
 }
 
 form .form-check-label {
@@ -89,7 +89,7 @@ form input.form-check-inpu {
 /* Botón de Envío */
 form button.btn-primary {
   width: 100%;
-  background-color: #e63946;
+  background-color: #000000;
   color: #ffffff;
   font-weight: bold;
   font-size: 1rem;
