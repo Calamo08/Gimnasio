@@ -1,0 +1,70 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+/* Form Container */
+.mb-3 {
+  max-width: 400px;
+  margin: 2rem auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+/* Label Styling */
+.mb-3 label.form-label {
+  display: block;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #444;
+}
+
+/* Select Dropdown Styling */
+.mb-3 select.form-select {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #f7f7f7;
+  transition: all 0.3s ease;
+}
+
+.mb-3 select.form-select:focus {
+  border-color: #e63946;
+  outline: none;
+  box-shadow: 0 0 5px rgba(230, 57, 70, 0.5);
+}
+
+/* Optional Hover State for Options */
+.mb-3 select.form-select option:hover {
+  background-color: #f2f2f2;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .mb-3 {
+      padding: 1rem;
+  }
+
+  .mb-3 label.form-label {
+      font-size: 1rem;
+  }
+
+  .mb-3 select.form-select {
+      font-size: 0.9rem;
+  }
+}
