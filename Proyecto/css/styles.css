@@ -1,10 +1,10 @@
 /* General styles */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family:'Times New Roman', Times, serif;
 }
 
-/* Header Styling */
+
 /* Header Styling */
 header {
   background-color: #434040;
@@ -108,7 +108,7 @@ header h1 {
 
 /* Hero Section */
 #hero {
-  background-image: url('../img/Portada.jpg');
+  background-image: url(../img/Portrait.jpg);
   background-size: cover;
   background-attachment: fixed; /* Parallax effect */
   background-position: center;
@@ -256,13 +256,18 @@ body, h1, h2, h3, p {
 #classes {
   text-align: center;
   padding: 50px 20px;
-  background-color: #f9f9f9;
+  background-color: #d4d0d0;
 }
 
 #classes h2 {
   margin-bottom: 40px;
   font-size: 2.5rem;
-  color: #333;
+  color: #0a0a0a;
+}
+
+#classes p {
+  margin-bottom: 40px;
+  font-size: 1.3rem;
 }
 
 .class-card {
@@ -285,7 +290,7 @@ body, h1, h2, h3, p {
 }
 
 .boxing {
-  background-image: url('../img/Guantes-boxeo.jpg');
+  background-image: url(../img/Boxing-gloves.jpg);
 }
 
 /* Fondo transparente */
@@ -335,3 +340,14 @@ body, h1, h2, h3, p {
   font-size: 1.2rem;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

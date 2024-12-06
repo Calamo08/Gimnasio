@@ -41,7 +41,7 @@ body {
   margin-bottom: 1.5rem;
 }
 
-/* Formularios */
+
 form {
   width: 100%;
   text-align: left;
@@ -86,7 +86,7 @@ form input.form-check-inpu {
   margin-right: 0.5rem;
 }
 
-/* Botón de Envío */
+
 form button.btn-primary {
   width: 100%;
   background-color: #000000;
@@ -104,13 +104,13 @@ form button.btn-primary:hover {
   background-color: #d62828;
 }
 
-/* Texto de Ayuda */
+
 form .form-text {
   font-size: 0.9rem;
   color: #888;
 }
 
-/* Responsivo */
+
 @media (max-width: 768px) {
   #register {
       padding: 1.5rem;

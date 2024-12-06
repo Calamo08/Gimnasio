@@ -11,6 +11,18 @@ body {
   color: #333;
   line-height: 1.6;
   padding: 2rem;
+  font-size: 1rem; 
+}
+
+
+h1 {
+  text-align: center; 
+  background-color: #838181;
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  font-size: 2rem;
 }
 
 /* Form Container */
@@ -19,15 +31,21 @@ body {
   margin: 2rem auto;
   background-color: #ffffff;
   border-radius: 8px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem; /* Más espacio para un diseño espacioso */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mb-3:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 /* Label Styling */
 .mb-3 label.form-label {
   display: block;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.1rem; /* Ajuste para mejor proporción */
   margin-bottom: 0.5rem;
   color: #444;
 }
@@ -41,6 +59,11 @@ body {
   font-size: 1rem;
   background-color: #f7f7f7;
   transition: all 0.3s ease;
+  appearance: none; /* Elimina el estilo predeterminado del navegador */
+  background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 4 5%22%3E%3Cpath fill=%22%23333%22 d=%22M2 0L0 2h4z%22/%3E%3C/svg%3E'); 
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 10px;
 }
 
 .mb-3 select.form-select:focus {
@@ -57,14 +80,14 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
   .mb-3 {
-      padding: 1rem;
+    padding: 1rem;
   }
 
   .mb-3 label.form-label {
-      font-size: 1rem;
+    font-size: 1rem;
   }
 
   .mb-3 select.form-select {
-      font-size: 0.9rem;
+    font-size: 0.9rem;
   }
 }
